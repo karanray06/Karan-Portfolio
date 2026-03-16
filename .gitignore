@@ -1,0 +1,8 @@
+node_modules/
+dist/
+.env
+.env.local
+build/
+.vscode/
+.DS_Store
+public/models/character.glb
