@@ -1,13 +1,14 @@
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { CustomSplitText } from "./customSplitText";
+import { ScrollSmoother } from "gsap-trial/ScrollSmoother";
+import { SplitText } from "gsap-trial/SplitText";
 
 interface ParaElement extends HTMLElement {
   anim?: gsap.core.Animation;
-  split?: CustomSplitText;
+  split?: SplitText;
 }
 
-gsap.registerPlugin(ScrollTrigger);
+gsap.registerPlugin(ScrollTrigger, ScrollSmoother, SplitText);
 
 export default function setSplitText() {
   ScrollTrigger.config({ ignoreMobileResize: true });
@@ -25,7 +26,7 @@ export default function setSplitText() {
       para.split?.revert();
     }
 
-    const split = new CustomSplitText(para, {
+    const split = new SplitText(para, {
       type: "lines,words",
       linesClass: "split-line",
     });
@@ -55,7 +56,7 @@ export default function setSplitText() {
       title.anim.progress(1).kill();
       title.split?.revert();
     }
-    const split = new CustomSplitText(title, {
+    const split = new SplitText(title, {
       type: "chars,lines",
       linesClass: "split-line",
     });
