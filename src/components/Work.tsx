@@ -8,31 +8,31 @@ const projects = [
     title: "Karan-Portfolio",
     category: "Personal Portfolio",
     tools: "Vite, React, TypeScript, GSAP",
-    image: "/images/Solidx.png",
+    image: "images/Solidx.png",
   },
   {
     title: "SnapLink",
     category: "Utility Application",
     tools: "TypeScript, React, Node.js",
-    image: "/images/radix.png",
+    image: "images/radix.png",
   },
   {
     title: "Pixelers",
     category: "Creative Project",
     tools: "JavaScript, HTML5 Canvas",
-    image: "/images/bond.png",
+    image: "images/bond.png",
   },
   {
     title: "Resume_Builder-",
     category: "Web Application",
     tools: "TypeScript, React, CSS",
-    image: "/images/sapphire.png",
+    image: "images/sapphire.png",
   },
   {
     title: "Personal_portfolio",
     category: "UI/UX Project",
     tools: "TypeScript, Tailwind CSS",
-    image: "/images/Maxlife.png",
+    image: "images/Maxlife.png",
   },
 ];
 
