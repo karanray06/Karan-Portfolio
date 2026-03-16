@@ -1,6 +1,6 @@
-# My Portfolio Wesbite - Overview 🚀
+# Karan Ray's Portfolio Website - Overview 🚀
 
-This repository contains the open source version of my porfolio website.
+This repository contains the open source version of my portfolio website as an aspiring Backend Developer and 1st year B.Tech CSE student (2025).
 Do check it out!
 
 ## Instructions 🛠️
